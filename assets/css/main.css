@@ -2841,17 +2841,20 @@ input, select, textarea {
 
 			.wrapper.style0 header.major > .date {
 				margin-top: -2rem;
+                font-size:1rem;
 				color: #212931;
 			}
 
 			.wrapper.style0 header.major > h1, .wrapper.style0 header.major > h2 {
-				font-size: 4rem;
-				line-height: 1.1;
-				margin: 0 0 2rem 0;
+				font-size: 3rem;
+				line-height: 1.4;
+				margin: -0.5em 0 0 0;
 				color: #212931;
 			}
 			.wrapper.style0 header.major > p {
 				color: #212931;
+                font-size:1.3em;
+                line-height:1.4;
 			}
 
             .wrapper.style0 input[type="submit"],
@@ -2913,6 +2916,7 @@ input, select, textarea {
 			}
 
 		.wrapper.posts {
+            background-color:#000000;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2928,6 +2932,7 @@ input, select, textarea {
 			text-align: center;
 			width: 100%;
 			padding: 0;
+            
 		}
 
 			.wrapper.posts > * {
